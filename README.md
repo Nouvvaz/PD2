@@ -146,17 +146,3 @@ classDiagram
     NotificadorConsola ..|> Notificador
     Main --> ServicioStands
     Main --> ServicioNotificaciones
-```
-
-## Subir a GitHub (mínimo 2 commits)
-
-```bash
-git init
-git add pom.xml .gitignore README.md src/main/java/com/feria/datos src/main/java/com/feria/configuracion
-git commit -m "Modelo de datos y configuración"
-git add .
-git commit -m "Lógica de negocio, notificaciones y CLI"
-git branch -M main
-git remote add origin <URL-DE-TU-REPO>
-git push -u origin main
-```
